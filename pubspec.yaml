@@ -20,7 +20,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  smart_auth: ^1.0.8
+  smart_auth: 
+    git:
+      url: https://github.com/sagnik-sanyal/flutter_smart_auth.git
   universal_platform: ^1.0.0+1
 
 dev_dependencies:
